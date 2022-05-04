@@ -10,7 +10,7 @@ public class FizzBuzzTests
     [InlineData(6,"Fizz")]
     [InlineData(15,"FizzBuzz")]
 
-    
+    [InlineData(0,"number less than 1")]
     
     
 
