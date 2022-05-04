@@ -10,8 +10,8 @@ public class FizzBuzzTests
     [InlineData(6,"Fizz")]
     [InlineData(15,"FizzBuzz")]
 
-    [InlineData(0,"number less than 1")]
-    
+    [InlineData(0,"The number must be greater than 0")]
+    [InlineData(101,"The number must be less than 101")]
     
 
     public void TestGetFizzBuzz(int input,string expected)
