@@ -8,6 +8,7 @@ public class FizzBuzzTests
     [InlineData(3,"Fizz")]
     [InlineData(5,"Buzz")]
     [InlineData(6,"Fizz")]
+    [InlineData(15,"FizzBuzz")]
     
     
 
