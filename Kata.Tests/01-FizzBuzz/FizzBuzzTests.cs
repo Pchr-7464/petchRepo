@@ -4,6 +4,9 @@ public class FizzBuzzTests
 {
     [Theory]
     [InlineData(1,"1")]
+    [InlineData(2,"2")]
+    
+    
     
 
     public void TestGetFizzBuzz(int input,string expected)
@@ -13,7 +16,8 @@ public class FizzBuzzTests
         // Act
         var actual = sut.GetFizzBuzz(input);
         // Assert
-        actual.Should().Be(expected);
+        actual.Should().Be(expected);      
     }
+    
 }
 
