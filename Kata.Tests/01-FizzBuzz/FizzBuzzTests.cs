@@ -8,6 +8,7 @@ public class FizzBuzzTests
     [InlineData(3,"Fizz")]
     [InlineData(5,"Buzz")]
     [InlineData(6,"Fizz")]
+    [InlineData(10,"Buzz")]
     [InlineData(15,"FizzBuzz")]
 
     [InlineData(0,"The number must be greater than 0")]
@@ -23,6 +24,11 @@ public class FizzBuzzTests
         // Assert
         actual.Should().Be(expected);      
     }
-    
+    /*public static void Main()
+    {
+        FizzBuzz fb = new FizzBuzz();
+        System.Console.WriteLine.(fb.GetFizzBuzz());
+    }
+    */
 }
 
